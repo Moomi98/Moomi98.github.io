@@ -10,6 +10,8 @@ lang: 'en'
 
 ## Contact & Channels
 
+---
+
 ### 📧 **Email**
 
 **kymkjh2002@gmail.com**
@@ -20,12 +22,16 @@ lang: 'en'
 
 # 💁🏻‍♀️ Front-End Developer
 
+---
+
 - 안녕하세요! **꾸준히 성장하는 신입 개발자** 김정현입니다.
 - 새로운 것을 좋아하며 도전을 두려워하지 않습니다.
 - 개발을 일상의 즐거움으로 삼고 있습니다.
 - 의견을 표현하고 주도적으로 일을 헤쳐나가는 것에 가치를 두고 있습니다.
 
 # 🛠 Skils
+
+---
 
 ## Javascript
 
@@ -52,6 +58,8 @@ lang: 'en'
 - SSR과 CSR의 차이를 이해하고 SSR을 적용하는 방법을 알고 있습니다.
 
 # 💻 Projects
+
+---
 
 ## Kodeal
 
@@ -103,6 +111,8 @@ https://github.com/Moomi98/Today_APT
 
 # 🚗 Activities
 
+---
+
 ## 교내 튜터링 프로그램
 
 2021.03 ~ 2021.06
@@ -113,6 +123,8 @@ https://github.com/Moomi98/Today_APT
 - 우수 튜터링 팀으로 선정되었습니다.
 
 # 🎓 Education
+
+---
 
 ## 한국공학대학교
 
