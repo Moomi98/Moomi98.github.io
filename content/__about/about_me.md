@@ -6,11 +6,7 @@ lang: 'en'
 
 # 안녕하세요, 김정현입니다! 👋
 
-![KakaoTalk_20220330_162616062.jpg](%E1%84%8B%E1%85%A1%E1%86%AB%E1%84%82%E1%85%A7%E1%86%BC%E1%84%92%E1%85%A1%E1%84%89%E1%85%A6%2039a88/KakaoTalk_20220330_162616062.jpg)
-
 ## Contact & Channels
-
----
 
 ### 📧 **Email**
 
@@ -22,16 +18,12 @@ lang: 'en'
 
 # 💁🏻‍♀️ Front-End Developer
 
----
-
 - 안녕하세요! **꾸준히 성장하는 신입 개발자** 김정현입니다.
 - 새로운 것을 좋아하며 도전을 두려워하지 않습니다.
 - 개발을 일상의 즐거움으로 삼고 있습니다.
 - 의견을 표현하고 주도적으로 일을 헤쳐나가는 것에 가치를 두고 있습니다.
 
 # 🛠 Skils
-
----
 
 ## Javascript
 
@@ -58,8 +50,6 @@ lang: 'en'
 - SSR과 CSR의 차이를 이해하고 SSR을 적용하는 방법을 알고 있습니다.
 
 # 💻 Projects
-
----
 
 ## Kodeal
 
@@ -110,8 +100,6 @@ https://github.com/Moomi98/Today_APT
     - props를 통한 state 전달 방법 공부
 
 # 🚗 Activities
-
----
 
 ## 교내 튜터링 프로그램
 
