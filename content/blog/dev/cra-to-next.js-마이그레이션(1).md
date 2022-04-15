@@ -1,17 +1,11 @@
 ---
 title: CRA to Next.js 마이그레이션(1)
-<<<<<<< HEAD
 date: 2022-04-12 23:04:80
-=======
-date: 2022-04-14 12:04:31
->>>>>>> f332c4b665c7acf1af811eb27ee2e135ecdb3050
 category: dev
 thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-<<<<<<< HEAD
-=======
 ## 💡개요
 
 현재 Kodeal 이라는 졸업작품을 만들고 있다.
@@ -112,4 +106,3 @@ export default Index
 여기까지만 적용해도 기본적인 Next.js migration은 성공적으로 끝난다.
 
 다음 포스팅에는 Next.js에 styled-component 적용기 및 라우팅 방법을 적어보도록 하겠다.
->>>>>>> f332c4b665c7acf1af811eb27ee2e135ecdb3050
