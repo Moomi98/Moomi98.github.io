@@ -1,7 +1,7 @@
 ---
 title: 가상 돔 (Virtual Dom)
 date: 2022-04-20 13:04:61
-category: react
+category: React
 thumbnail: { thumbnailSrc }
 draft: false
 ---
