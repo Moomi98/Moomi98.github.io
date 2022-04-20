@@ -1,7 +1,7 @@
 ---
 title: HOF에 대해서
 date: 2022-04-19 13:04:32
-category: javascript
+category: Javascript
 thumbnail: { thumbnailSrc }
 draft: false
 ---
