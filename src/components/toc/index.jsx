@@ -4,12 +4,14 @@ const TOC = ({ contents }) => {
   const [tocs, setTocs] = useState([])
 
   useEffect(() => {
-    console.log(contents)
+    console.log(contents[3].props.html)
     const posts = contents[3].props.html
     const aReg = /<a(.*?)>/g
     const hrefReg = /href=(".*?")/g
     const labelReg = /aria-label=(".*?")/g
     const result = posts.match(aReg)
+
+    const tocArr = []
 
     result.forEach(attrs => {
       const hrefResult = attrs
@@ -20,22 +22,22 @@ const TOC = ({ contents }) => {
         .match(labelReg)[0]
         .split('=')[1]
         .replace(/"/g, '')
+        .replace('permalink', '')
       console.log(tocs)
-      setTocs([...tocs, [hrefResult, labelResult]])
+      tocArr.push([hrefResult, labelResult])
     })
 
+    setTocs([...tocs, ...tocArr])
     console.log(result)
   }, [])
 
   return (
     <div className={styles.navigator}>
-      <div>
-        {tocs.map((toc, index) => (
-          <a key={index} href={toc[0]}>
-            {toc[1]}
-          </a>
-        ))}
-      </div>
+      {tocs.map((toc, index) => (
+        <a className={styles.tocTag} key={index} href={toc[0]}>
+          {toc[1]}
+        </a>
+      ))}
     </div>
   )
 }
