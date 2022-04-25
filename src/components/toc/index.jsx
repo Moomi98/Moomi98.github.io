@@ -4,15 +4,12 @@ const TOC = ({ contents }) => {
   const [tocs, setTocs] = useState([])
 
   useEffect(() => {
+    console.log(contents)
     const posts = contents[3].props.html
+    const aReg = /<a(.*?)>/g
     const hrefReg = /href=(".*?")/g
     const labelReg = /aria-label=(".*?")/g
-    const postArr = posts.split('<')
-
-    const result = postArr.filter(post => {
-      const attrs = post.split(' ')
-      return attrs[0] === 'a'
-    })
+    const result = posts.match(aReg)
 
     result.forEach(attrs => {
       const hrefResult = attrs
@@ -34,10 +31,9 @@ const TOC = ({ contents }) => {
     <div className={styles.navigator}>
       <div>
         {tocs.map((toc, index) => (
-          <div key={index}>
-            <div>{toc[0]}</div>
-            <div>{toc[1]}</div>
-          </div>
+          <a key={index} href={toc[0]}>
+            {toc[1]}
+          </a>
         ))}
       </div>
     </div>

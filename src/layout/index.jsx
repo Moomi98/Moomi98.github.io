@@ -35,7 +35,7 @@ export const Layout = ({ location, title, children }) => {
           {children}
           <Footer />
         </div>
-        <TOC contents={children} />
+        {children.length > 4 ? <TOC contents={children} /> : null}
       </div>
     </React.Fragment>
   )
