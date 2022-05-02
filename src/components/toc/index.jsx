@@ -34,9 +34,12 @@ const TOC = ({ contents }) => {
   return (
     <div className={styles.navigator}>
       {tocs.map((toc, index) => (
-        <a className={styles.tocTag} key={index} href={toc[0]}>
-          {toc[1]}
-        </a>
+        <div style={{ display: 'flex' }}>
+          <div className={styles.tocBlock} />
+          <a className={styles.tocTag} key={index} href={toc[0]}>
+            {toc[1]}
+          </a>
+        </div>
       ))}
     </div>
   )
