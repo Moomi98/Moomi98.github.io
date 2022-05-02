@@ -13,3 +13,12 @@
 .tocTag {
   color: gray;
 }
+
+@media screen and (max-width: 960px) {
+  .navigator {
+    display: none;
+  }
+  .tocTag {
+    display: none;
+  }
+}
