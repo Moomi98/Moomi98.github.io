@@ -8,7 +8,6 @@
   gap: 10px;
   margin-right: auto;
   flex-direction: column;
-
 }
 
 .tocTag {
@@ -17,11 +16,10 @@
   max-width: 300px;
 }
 
-.tocTag:hover{
+.tocTag:hover {
   color: black;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 960px) {
   .navigator {
     display: none;
@@ -30,11 +28,9 @@
     display: none;
   }
 }
-=======
-.tocBlock{
+.tocBlock {
   width: 0.4rem;
   height: 1.5rem;
-  background-color:chartreuse;
+  background-color: chartreuse;
   margin-right: 8px;
 }
->>>>>>> db90f98a3865ec7228372d66957ffa3dfa82c0a4
