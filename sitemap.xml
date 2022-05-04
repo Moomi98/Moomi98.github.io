@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://moomi98.github.io/cloud service/rds-생성-+-php-연동/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://moomi98.github.io/dev/webpack에-대해서/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://moomi98.github.io/dev/고양이-사진-2장과-setinterval을-활용한-움직이는-고양이-만들기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://moomi98.github.io/Javascript/호이스팅(hoisting)/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
