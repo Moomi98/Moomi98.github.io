@@ -2,7 +2,7 @@ module.exports = {
   title: `Moomi's develog`,
   description: `Blog posted about ...`,
   author: `Moomi`,
-  introduction: `어제보다 더 나은 내가 되자 `,
+  introduction: `기억보단 기록을, 상상보단 도전을 하자.`,
   siteUrl: `https://moomi98.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
