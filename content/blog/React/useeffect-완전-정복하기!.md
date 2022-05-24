@@ -1,7 +1,7 @@
 ---
 title: useEffect 완전 정복하기!
 date: 2022-05-09 15:05:17
-category: react
+category: React
 thumbnail: { thumbnailSrc }
 draft: false
 ---

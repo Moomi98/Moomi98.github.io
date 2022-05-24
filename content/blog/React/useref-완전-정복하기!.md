@@ -1,7 +1,7 @@
 ---
 title: useRef 완전 정복하기!
 date: 2022-05-24 12:05:19
-category: react
+category: React
 thumbnail: { thumbnailSrc }
 draft: false
 ---
