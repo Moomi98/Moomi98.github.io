@@ -7,7 +7,6 @@ import { Footer } from '../components/footer'
 import { rhythm } from '../utils/typography'
 
 import './index.scss'
-import TOC from '../components/toc'
 
 export const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -33,8 +32,6 @@ export const Layout = ({ location, title, children }) => {
           {children}
           <Footer />
         </div>
-
-        {children.length > 4 ? <TOC contents={children} /> : null}
       </div>
     </React.Fragment>
   )
